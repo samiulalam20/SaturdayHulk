@@ -16,6 +16,7 @@ public class Variables {
 		ny("Madison Square", 789);
 		nj("Essex");
 		ct("Hartly");
+		git();
 		
 		Variables myObject = new Variables();
 		System.out.println(myObject.country);
@@ -46,6 +47,11 @@ public class Variables {
 		
 		String myCounty = county;
 		System.out.println(myCounty);
+	}
+	
+	//Git commit change
+	public static void git(){
+		System.out.println("Changing to commit in git");
 	}
 
 }
