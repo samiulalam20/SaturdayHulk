@@ -52,6 +52,7 @@ public class Variables {
 	//Git commit change
 	public static void git(){
 		System.out.println("Changing to commit in git");
+		System.out.println("Commiting to new branch");
 	}
 
 }
